@@ -10,10 +10,15 @@ class Gamestate:
         players.append(player)
 
 class Player:
-    money = 1000
-    name = ""
-    current_position = 0
+    # money = 1000
+    # name = ""
+    # current_position = 0
 
-    def __init__(self, name):
+    def __init__(self, name, money = 1000, current_position = 0):
         self.name = name
+        self.money = money
+        self.current_position = current_position
     #al = Player("Al")
+
+class Tile():
+    pass
